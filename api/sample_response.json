@@ -1,0 +1,148 @@
+[
+    {
+        "key": "Y46S2EGA",
+        "version": 1280,
+        "library": {
+            "type": "user",
+            "id": 3287690,
+            "name": "mattvlaw",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/mattvlaw",
+                    "type": "text/html"
+                }
+            }
+        },
+        "links": {
+            "self": {
+                "href": "https://api.zotero.org/users/3287690/items/Y46S2EGA",
+                "type": "application/json"
+            },
+            "alternate": {
+                "href": "https://www.zotero.org/mattvlaw/items/Y46S2EGA",
+                "type": "text/html"
+            },
+            "attachment": {
+                "href": "https://api.zotero.org/users/3287690/items/KTYXZK6G",
+                "type": "application/json",
+                "attachmentType": "application/pdf",
+                "attachmentSize": 1150865
+            }
+        },
+        "meta": {
+            "creatorSummary": "Zimmerman et al.",
+            "parsedDate": "2007-04-29",
+            "numChildren": 1
+        },
+        "data": {
+            "key": "Y46S2EGA",
+            "version": 1280,
+            "itemType": "conferencePaper",
+            "title": "Research through design as a method for interaction design research in HCI",
+            "creators": [
+                {
+                    "creatorType": "author",
+                    "firstName": "John",
+                    "lastName": "Zimmerman"
+                },
+                {
+                    "creatorType": "author",
+                    "firstName": "Jodi",
+                    "lastName": "Forlizzi"
+                },
+                {
+                    "creatorType": "author",
+                    "firstName": "Shelley",
+                    "lastName": "Evenson"
+                }
+            ],
+            "abstractNote": "For years the HCI community has struggled to integrate design in research and practice. While design has gained a strong foothold in practice, it has had much less impact on the HCI research community. In this paper we propose a new model for interaction design research within HCI. Following a research through design approach, designers produce novel integrations of HCI research in an attempt to make the right thing: a product that transforms the world from its current state to a preferred state. This model allows interaction designers to make research contributions based on their strength in addressing under-constrained problems. To formalize this model, we provide a set of four lenses for evaluating the research contribution and a set of three examples to illustrate the benefits of this type of research.",
+            "date": "2007-04-29",
+            "proceedingsTitle": "Proceedings of the SIGCHI Conference on Human Factors in Computing Systems",
+            "conferenceName": "CHI07: CHI Conference on Human Factors in Computing Systems",
+            "place": "San Jose California USA",
+            "publisher": "ACM",
+            "volume": "",
+            "pages": "493-502",
+            "series": "",
+            "language": "en",
+            "DOI": "10.1145/1240624.1240704",
+            "ISBN": "978-1-59593-593-9",
+            "shortTitle": "",
+            "url": "https://dl.acm.org/doi/10.1145/1240624.1240704",
+            "accessDate": "2023-02-13T16:55:11Z",
+            "archive": "",
+            "archiveLocation": "",
+            "libraryCatalog": "DOI.org (Crossref)",
+            "callNumber": "",
+            "rights": "",
+            "extra": "",
+            "tags": [],
+            "collections": [
+                "KYTJVXW5",
+                "LA4HYCQJ"
+            ],
+            "relations": {},
+            "dateAdded": "2023-02-13T16:55:11Z",
+            "dateModified": "2023-02-13T16:55:12Z"
+        }
+    },
+    {
+        "key": "KTYXZK6G",
+        "version": 722,
+        "library": {
+            "type": "user",
+            "id": 3287690,
+            "name": "mattvlaw",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/mattvlaw",
+                    "type": "text/html"
+                }
+            }
+        },
+        "links": {
+            "self": {
+                "href": "https://api.zotero.org/users/3287690/items/KTYXZK6G",
+                "type": "application/json"
+            },
+            "alternate": {
+                "href": "https://www.zotero.org/mattvlaw/items/KTYXZK6G",
+                "type": "text/html"
+            },
+            "up": {
+                "href": "https://api.zotero.org/users/3287690/items/Y46S2EGA",
+                "type": "application/json"
+            },
+            "enclosure": {
+                "type": "application/pdf",
+                "href": "https://api.zotero.org/users/3287690/items/KTYXZK6G/file/view",
+                "title": "Zimmerman et al. - 2007 - Research through design as a method for interactio.pdf",
+                "length": 1150865
+            }
+        },
+        "meta": {
+            "numChildren": 23
+        },
+        "data": {
+            "key": "KTYXZK6G",
+            "version": 722,
+            "parentItem": "Y46S2EGA",
+            "itemType": "attachment",
+            "linkMode": "imported_url",
+            "title": "Zimmerman et al. - 2007 - Research through design as a method for interactio.pdf",
+            "accessDate": "2023-02-13T16:55:10Z",
+            "url": "https://dl.acm.org/doi/pdf/10.1145/1240624.1240704",
+            "note": "",
+            "contentType": "application/pdf",
+            "charset": "",
+            "filename": "Zimmerman et al. - 2007 - Research through design as a method for interactio.pdf",
+            "md5": "0345958c7143ebb356de87be075fd00d",
+            "mtime": 1676307312000,
+            "tags": [],
+            "relations": {},
+            "dateAdded": "2023-02-13T16:55:10Z",
+            "dateModified": "2023-02-13T16:55:12Z"
+        }
+    }
+]
