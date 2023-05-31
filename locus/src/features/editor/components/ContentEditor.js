@@ -6,6 +6,9 @@ import { Box, VStack } from '@chakra-ui/react';
 import EditorMenu from './EditorMenu';
 import QuillEditor from './QuillEditor';
 import HighlighterPdfViewer from './HighlighterPdfEditor';
+import SlateEditor from './SlateEditor';
+
+const texteditor="quill"
 
 const ContentEditor = () => {
     const quillRef = useRef();
@@ -19,15 +22,29 @@ const ContentEditor = () => {
         )
     }
     else{
-        editor = (
-            <VStack width="100%">
-                <EditorMenu quillRef={quillRef} />                
-                <Box width="100%">
-                    <QuillEditor quillRef={quillRef} />
-                </Box>
-                
-            </VStack>
-        )
+        if (texteditor==="slate"){
+            editor = (
+                <VStack width="100%">
+                    {/* <EditorMenu quillRef={quillRef} />                 */}
+                    <Box width="100%">
+                        <SlateEditor />
+                    </Box>
+                    
+                </VStack>
+            )
+        }
+        else{
+            editor = (
+                <VStack width="100%">
+                    <EditorMenu quillRef={quillRef} />                
+                    <Box width="100%">
+                        <QuillEditor quillRef={quillRef} />
+                    </Box>
+                    
+                </VStack>
+            )
+        }
+        
     }
     return (
         

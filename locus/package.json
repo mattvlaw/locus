@@ -32,6 +32,8 @@
     "react-scripts": "5.0.1",
     "redux": "^4.2.1",
     "redux-thunk": "^2.4.2",
+    "slate": "^0.94.1",
+    "slate-react": "^0.94.2",
     "socket.io-client": "^4.6.1",
     "web-vitals": "^2.1.4",
     "yarn": "^1.22.19"
